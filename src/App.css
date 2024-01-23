@@ -8,3 +8,58 @@ body {
   width: 100%;
   overflow: hidden;
 }
+
+body, button, input, textarea {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.btn-add {
+  background-color: rgb(174, 115, 88);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-delete {
+  background-color: rgb(172, 167, 70);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+h1 {
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+.whole-plan {
+  width: 60%;
+  height: 70vh;
+}
+
+.meal-editing {
+
+}
+
+.meals-input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+textarea {
+  display: block;
+  border: 1px solid blueviolet;
+  margin-bottom: 3vh;
+  width: 70%;
+  border-radius: 10px;
+}
